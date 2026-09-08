@@ -119,17 +119,10 @@ export default function CheckoutPage() {
         paymentMethod === "easypaisa" ? "Easypaisa" : "Visa / Mastercard";
 
     
-      
-      // const productsMessage = cart
-      //   .map(
-      //     (item) =>
-      //       `• ${item.title} × ${item.quantity} — Rs. ${(item.price * item.quantity).toLocaleString()}\n   Deal ID: #${item.id}\n   Link: http://localhost:3000/Deals/${item.id}`,
-      //   )
-      //   .join("\n\n");
       const productsMessage = cart
         .map(
           (item) =>
-            `Product: ${item.title}\nSubtitle: ${item.subtitle || "N/A"}\nQuantity: ${item.quantity}\nPrice: Rs. ${item.price}\nDeal ID: ${item.id}\nLink: http://localhost:3000/Deals/${item.id}`,
+            `Product: ${item.title}\nSubtitle: ${item.subtitle || "N/A"}\nQuantity: ${item.quantity}\nPrice: Rs. ${item.price}\nDeal ID: ${item.id}\nLink: https://nain-collection.vercel.app/Deals/${item.id}`,
         )
         .join("\n\n");
 

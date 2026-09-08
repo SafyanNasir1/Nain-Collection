@@ -64,11 +64,11 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
-                  className="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a227]/50 hover:bg-[#c9a227]"
+                  className="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:border-[black]/50 hover:bg-[black]"
                 >
                   {" "}
                   <Image
-                    src="/images/facebook-app-symbol.png"
+                    src="/images/facebook.png"
                     alt="Facebook"
                     width={17}
                     height={17}
@@ -81,11 +81,11 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
-                  className="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a227]/50 hover:bg-[#c9a227]"
+                  className="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:border-[black]/50 hover:bg-[black]"
                 >
                   {" "}
                   <Image
-                    src="/images/instagram.png"
+                    src="/images/insta.png"
                     alt="Instagram"
                     width={17}
                     height={17}
@@ -98,11 +98,11 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="TikTok"
-                  className="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:border-[#c9a227]/50 hover:bg-[#c9a227]"
+                  className="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:border-[black]/50 hover:bg-[black]"
                 >
                   {" "}
                   <Image
-                    src="/images/tik-tok.png"
+                    src="/images/tik.png"
                     alt="TikTok"
                     width={17}
                     height={17}
