@@ -352,7 +352,7 @@ const slides = [
     tagline: "with Roses & Layer Cakes",
     description:
       "Fresh bouquets, premium cakes and personalised notes made for unforgettable moments.",
-    image: "/images/deal2.jfif",
+    image: "/images/deal2.jpg",
     primaryCta: { label: "Shop Now", href: "/Deals" },
     secondaryCta: { label: "Track Order", href: "/Cart" },
   },
@@ -364,7 +364,7 @@ const slides = [
     tagline: "for Every Occasion",
     description:
       "Mix cakes, flowers and thoughtful gifts together to create something truly personal.",
-    image: "/images/deal3.jfif",
+    image: "/images/deal3.jpg",
     primaryCta: { label: "Start Customising", href: "/Deals" },
     secondaryCta: { label: "View Combos", href: "/Deals" },
   },
