@@ -32,8 +32,8 @@ export const deals = [
     price: 5499,
     oldPrice: 7999,
     discount: "31% OFF",
-    image: "/images/img3.jfif",
-    images: ["/images/img3.jfif"],
+    image: "/images/img3.jpeg",
+    images: ["/images/img3.jpeg"],
   },
   {
     id: 4,

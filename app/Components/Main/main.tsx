@@ -340,7 +340,7 @@ const slides = [
     tagline: "with Love & Surprises",
     description:
       "Cakes, flowers, luxury bouquets, teddy bears & beautiful gifts delivered with care.",
-    image: "/images/deal.jfif",
+    image: "/images/deal.jpg",
     primaryCta: { label: "Shop Now", href: "/Deals" },
     secondaryCta: { label: "Custom Deal", href: "/Deals" },
   },
