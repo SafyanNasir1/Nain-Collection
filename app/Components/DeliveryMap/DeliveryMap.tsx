@@ -142,7 +142,10 @@ export default function DeliveryMap() {
                     <span className="relative block h-3 w-3 rounded-full border-2 border-[#faf7f0] bg-[#c9a227] shadow-[0_3px_12px_rgba(201,162,39,0.4)]" />
 
                     {/* label */}
-                    <span className="absolute left-4 top-1/2 hidden -translate-y-1/2 whitespace-nowrap rounded-full border border-[#e7e1d3] bg-white/80 px-2 py-1 text-[8px] font-semibold uppercase tracking-[0.12em] text-[#16302a] shadow-sm backdrop-blur-md sm:block">
+                    {/* <span className="absolute left-4 top-1/2 hidden -translate-y-1/2 whitespace-nowrap rounded-full border border-[#e7e1d3] bg-white/80 px-2 py-1 text-[8px] font-semibold uppercase tracking-[0.12em] text-[#16302a] shadow-sm backdrop-blur-md sm:block">
+                      {city.name}
+                    </span> */}
+                    <span className="absolute left-4 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-full border border-[#e7e1d3] bg-white/80 px-2 py-1 text-[8px] font-semibold uppercase tracking-[0.12em] text-[#16302a] shadow-sm backdrop-blur-md">
                       {city.name}
                     </span>
                   </div>

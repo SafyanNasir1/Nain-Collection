@@ -64,7 +64,7 @@ export default function DealsData() {
           src={deal.image}
           alt={deal.title}
           fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 33vw, 25vw"
+          sizes="(max-width: 768px) 50vw, (max-width: 1280px) 33vw, 25vw"
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
 
@@ -313,7 +313,7 @@ export default function DealsData() {
         <SectionHeader type={gentsDeals} title="Gents" subtitle="For Him" />
 
         {gentsDeals.length > 0 ? (
-          <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-2 sm:gap-7 lg:grid-cols-3 xl:grid-cols-4">
             {gentsDeals.map((deal, index) => (
               <DealCard key={deal.id} deal={deal} index={index} />
             ))}
@@ -343,7 +343,7 @@ export default function DealsData() {
         <SectionHeader type={girlsDeals} title="Girls" subtitle="For Her" />
 
         {girlsDeals.length > 0 ? (
-          <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-2 sm:gap-7 lg:grid-cols-3 xl:grid-cols-4">
             {girlsDeals.map((deal, index) => (
               <DealCard key={deal.id} deal={deal} index={index} />
             ))}
