@@ -31,7 +31,7 @@ export default function Navbar() {
   const navLinks = [
     { label: "Home", href: "/" },
     { label: "Deals", href: "/Deals" },
-    { label: "Occasions", href: "/occasions" },
+    { label: "Jhumka Box", href: "/Jhumka" },
     { label: "Combos", href: "/combos" },
     { label: "Custom Deals", href: "/custom-deals" },
     { label: "Track Order", href: "/track-order" },
