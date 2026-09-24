@@ -13,6 +13,7 @@ type CartItem = {
   price: number;
   image: string;
   quantity: number;
+  type?: "deals" | "jhumka";
 };
 
 type PaymentMethod = "easypaisa" | "card";
@@ -119,13 +120,21 @@ export default function CheckoutPage() {
         paymentMethod === "easypaisa" ? "Easypaisa" : "Visa / Mastercard";
 
     
-      const productsMessage = cart
-        .map(
-          (item) =>
-            `Product: ${item.title}\nSubtitle: ${item.subtitle || "N/A"}\nQuantity: ${item.quantity}\nPrice: Rs. ${item.price}\nDeal ID: ${item.id}\nLink: https://nain-collection.vercel.app/Deals/${item.id}`,
-        )
-        .join("\n\n");
+      // const productsMessage = cart
+      //   .map(
+      //     (item) =>
+      //       `Product: ${item.title}\nSubtitle: ${item.subtitle || "N/A"}\nQuantity: ${item.quantity}\nPrice: Rs. ${item.price}\nDeal ID: ${item.id}\nLink: https://nain-collection.vercel.app/Deals/${
+      //         item.type === "jhumka" ? "Jhumka" : "Deals"
+      //       }${item.id}`,
+      //   )
+      //   .join("\n\n");
+     const productsMessage = cart
+       .map((item) => {
+         const routeFolder = item.type === "jhumka" ? "Jhumka" : "Deals";
 
+         return `Product: ${item.title}\nSubtitle: ${item.subtitle || "N/A"}\nQuantity: ${item.quantity}\nPrice: Rs. ${item.price}\nDeal ID: ${item.id}\nLink: https://nain-collection.vercel.app/${routeFolder}/${item.id}`;
+       })
+       .join("\n\n");
       const whatsappMessage = `Hello Nain Collection,
 
 I have placed a new order.

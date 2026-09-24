@@ -13,6 +13,7 @@ type CartItem = {
   price: number;
   image: string;
   quantity: number;
+  type?: "deals" | "jhumka";
 };
 
 export default function CartPage() {
